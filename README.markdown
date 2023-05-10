@@ -38,7 +38,7 @@ After downloading this repository, you can follow the follow steps to perform th
    + For BETA Dataset, please directly download data from the [webpage](http://bci.med.tsinghua.edu.cn/download.html), and put all subjects' data in the folder `BetaData`.
 
 2. Run `rearrange_BenchmarkData.m` and `rearrange_BetaData.m` for Benchmark Dataset and BETA Dataset respectively to generate the filter-bank data. Note: These two codes may gnerate files with the same name. So please do NOT run simulations of these two datasets in the same path. 
-3. Run `test_BenchmarkDataset.py` and `test_BetaDataset.py` for Benchmark Dataset and BETA Dataset respectively to do the simulations. Note:
+3. Run `test_BenchmarkDataset.py` and `test_BetaDataset.py` for Benchmark Dataset and BETA Dataset respectively to do the simulations. Notes:
 
     + The proposed model and related simulations are based on [Python3.9](https://docs.anaconda.com/free/anaconda/reference/packages/py3.9_win-64/) and [Tensorflow2](https://www.tensorflow.org/guide/effective_tf2?hl=zh-cn). Before you run the simulations, you need to install the related packages. You can find the required packages in `environment.yml`.
     + The proposed model is defined in `Compact_model.py`.
@@ -59,6 +59,9 @@ The proposed ANN architecture is compared with the prominent CA-based and DNN-ba
     + Guney-DNN: O. B. Guney, M. Oblokulov, and H. Ozkan, “A deep neural network for SSVEP-based brain-computer interfaces,” IEEE Trans. Biomed. Eng., vol. 69, no. 2, pp. 932–944, Feb. 2022, doi: [10.1109/TBME.2021.3110440](https://doi.org/10.1109/TBME.2021.3110440).
     + Conv-CA: Y. Li, J. Xiang, and T. Kesavadas, “Convolutional correlation analysis for enhancing the performance of SSVEP-based brain-computer interface,” IEEE Trans. Neural Syst. Rehabil. Eng., vol. 28, no. 12, pp. 2681–2690, Dec. 2020, doi: [10.1109/TNSRE.2020.3038718](https://doi.org/10.1109/TNSRE.2020.3038718).
 
-Note: Because this study focuses on the individual SSVEP recognition, the calibration data size in this study is much smaller than that in original papers of the Guney-DNN and the Conve-CA. Therefore, the recognition results of the Guney-DNN and the Conve-CA are different from these papers.
+Notes: 
+
++ (a) and (b) for Benchmark Dataset. (c) and (d) for BETA Dataset.
++ Because this study focuses on the individual SSVEP recognition, the calibration data size in this study is much smaller than that in original papers of the Guney-DNN and the Conve-CA. Therefore, the recognition results of the Guney-DNN and the Conve-CA are different from these papers.
 
 ![Classification performance](./images/5.png)
