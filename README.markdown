@@ -40,7 +40,7 @@ After downloading this repository, you can follow the follow steps to perform th
 2. Run `rearrange_BenchmarkData.m` and `rearrange_BetaData.m` for Benchmark Dataset and BETA Dataset respectively to generate the filter-bank data. Note: These two codes may gnerate files with the same name. So please do NOT run simulations of these two datasets in the same path. 
 3. Run `test_BenchmarkDataset.py` and `test_BetaDataset.py` for Benchmark Dataset and BETA Dataset respectively to do the simulations. Note:
 
-    + The proposed model and related simulations are based on Python3.9 and Tensorflow2.0. Before you run the simulations, you need to install the related packages. You can find the required packages in `environment.yml`.
+    + The proposed model and related simulations are based on [Python3.9](https://docs.anaconda.com/free/anaconda/reference/packages/py3.9_win-64/) and [Tensorflow2](https://www.tensorflow.org/guide/effective_tf2?hl=zh-cn). Before you run the simulations, you need to install the related packages. You can find the required packages in `environment.yml`.
     + The proposed model is defined in `Compact_model.py`.
     + The results will be stored in `test_BenchmarkDataset.mat` and `test_BetaDataset.mat`. The accuracy is stored in the variable `test_acc_store`, which has 4 dimensions (signal length * block * subject * epoch).
 
