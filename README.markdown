@@ -2,7 +2,19 @@
 
 This study proposes a **compact artifical neural network** (ANN) architecture to reduce the number of trainable parameters and thus **avoid the over-fitting issue** of the ANNs in the individual SSVEP recognition. 
 
-The related paper has been accepted by [IEEE Transactions on Neural Systems & Rehabilitation Engineering](https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=7333).
+The related paper has been published in *IEEE Transactions on Neural Systems & Rehabilitation Engineering* (DOI: [10.1109/TNSRE.2023.3276745](https://doi.org/10.1109/TNSRE.2023.3276745)). If you use this method, please cite this paper:
+
+```
+@ARTICLE{10138315,
+  author={Wang, Ze and Wong, Chi Man and Wang, Boyu and Feng, Zhao and Cong, Fengyu and Wan, Feng},
+  journal={IEEE Transactions on Neural Systems and Rehabilitation Engineering}, 
+  title={Compact Artificial Neural Network Based on Task Attention for Individual SSVEP Recognition with Less Calibration}, 
+  year={2023},
+  volume={},
+  number={},
+  pages={1-1},
+  doi={10.1109/TNSRE.2023.3276745}}
+```
 
 This repository follows the license [Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.en).
 
